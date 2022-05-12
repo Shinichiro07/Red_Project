@@ -1,2 +1,2 @@
 # Red_Project 
-This is an oppensource version of pokemon red 
+Our project is an oppensource version of pokemon red
