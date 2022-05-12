@@ -79,4 +79,10 @@ mouvement()
 
 mainloop()
 
+<<<<<<< HEAD
 #poukemon 
+=======
+#salut seb
+>>>>>>> 12d7f6707a33e873604e7051656c3334d0e592e9
+
+#ouais oauis oauis
