@@ -60,12 +60,12 @@ def mouvement():
 
 
 
-mapDefinition= PhotoImage(file= r"C:\Users\adrien\Desktop\Red_Project\map\Map.png")
+mapDefinition= PhotoImage(file=r"C:\Users\seb60\OneDrive\Bureau\Red_Project\Map\Map.png")
 mapDefinition= mapDefinition.zoom(4)
 
 map1= screen.create_image(0, 0, image= mapDefinition, anchor= NW)
 
-redDefinition= PhotoImage(file= r"C:\Users\adrien\Desktop\Red_Project\Sprite\Sprite RED bas_normal.png")
+redDefinition= PhotoImage(file= r"C:\Users\seb60\OneDrive\Bureau\Red_Project\Sprite\Sprite RED bas_normal.png")
 redDefinition= redDefinition.subsample(8, 8)
 
 
@@ -79,4 +79,3 @@ mouvement()
 
 mainloop()
 
-#test ultime
