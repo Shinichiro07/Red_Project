@@ -43,13 +43,13 @@ def mouvement():
         MY= MY - 10
     
     if direction == 1:
-        MX= MX - 10
+        MX= MX + 10
     
     if direction == 3:
         MY= MY + 10
     
     if direction == 2:
-        MX= MX + 10    
+        MX= MX - 10    
     
     screen.delete(map1)
     map1= screen.create_image(MX, MY, image= mapDefinition, anchor= NW)
@@ -60,12 +60,12 @@ def mouvement():
 
 
 
-mapDefinition= PhotoImage(file= r"C:\Users\adrien\Desktop\Projet-Pokemon\map\Map.png")
+mapDefinition= PhotoImage(file= r"C:\Users\adrien\Desktop\Red_Project\map\Map.png")
 mapDefinition= mapDefinition.zoom(4)
 
 map1= screen.create_image(0, 0, image= mapDefinition, anchor= NW)
 
-redDefinition= PhotoImage(file= r"C:\Users\adrien\Desktop\Projet-Pokemon\Sprite\Sprite RED bas_normal.png")
+redDefinition= PhotoImage(file= r"C:\Users\adrien\Desktop\Red_Project\Sprite\Sprite RED bas_normal.png")
 redDefinition= redDefinition.subsample(8, 8)
 
 
