@@ -78,3 +78,5 @@ window.bind("<s>", mouvDown)
 mouvement()
 
 mainloop()
+
+#salut seb
